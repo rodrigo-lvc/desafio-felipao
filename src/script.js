@@ -1,7 +1,10 @@
-const nome = "Lovelace";
+//Projeto Desafio do Felipão da DIO de Ranking de Heróis!
+const nome = "Lovelace"; //Declaração das variáveis de nome, xp e nível
 let xp = 0;
 let nivel;
 
+//Abaixo, estrutura de repetição que atendendo as devidas condições ligadas a variável xp, irá utilizar o
+//valor dos rankings que estão armazenados em uma variável.
 if (xp < 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
@@ -20,4 +23,5 @@ if (xp < 1000) {
     nivel = "Radiante";
 }
 
+//Console.log exibindo o nome e o nível do herói com o texto que foi pedido 
 console.log(`O herói de nome ${nome} está no nível de ${nivel}!`)
